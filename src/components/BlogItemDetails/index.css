@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.imagein1 {
+  height: 250px;
+  width: 100%;
+}
+.smallimg {
+  height: 25px;
+  border-radius: 25px;
+}
+.auth {
+  align-self: flex-start;
+}
+.aut {
+  padding-left: 5px;
+}
+.main11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 95px;
+
+  min-width: 50px;
+}
+.content {
+  min-height: 55px;
+  width: 250px;
+  font-size: medium;
+  color: #8e8e8e;
+}
+.topic {
+  text-decoration: none;
+  font-size: 20px;
+}
+@media screen and (min-width: 756px) {
+  .imagein1 {
+    height: 300px;
+    width: 500px;
+  }
+  .content {
+    width: 500px;
+  }
+}

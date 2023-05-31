@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.image1 {
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  padding-right: 35px;
+  background-position: center;
+}
+.center {
+  align-self: center;
+}
+.avatar {
+  height: 30px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+.auth {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  margin: 25px;
+  border-color: #8e8e8e;
+  border-radius: 20px;
+}
+@media screen and (min-width: 735px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .image1 {
+    height: 100px;
+    width: 180px;
+  }
+}
+.inside {
+  width: 80%;
+}
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+}
+@media screen and (min-width: 756px) {
+  .main1 {
+    width: 600px;
+  }
+}
+.topic {
+  text-decoration: none;
+  color: black;
+}
